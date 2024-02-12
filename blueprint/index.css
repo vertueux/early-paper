@@ -28,17 +28,9 @@ img::selection {
 }
 
 body {
-    font-family: TestSohne-Light;
+    font-family: Montserrat;
+    letter-spacing: -1px;
+    font-weight: 450;
     overflow-x: hidden;
     background: white;
-
-    /* For the footer. */
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-/* For the footer. */
-.page {
-    flex: 1 0 auto;
 }

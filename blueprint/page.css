@@ -15,13 +15,14 @@
 
 #ptitle {
     display: inline-block;
-    font-family: TestSignifier-ExtraLight;
+    font-family: NotoSerifJP-Medium;
     font-size: 54px;
     vertical-align: top;
 }
 
 #ptype {
     font-size: 15px;
+    font-weight: 500;
 }
 
 .intro {
@@ -57,19 +58,8 @@
     vertical-align: middle;
 }
 
-.info-container a span::after {
-    content: "";
-    display: block;
-    bottom: -1px;
-    width: 100%;
-    height: 1px;
-    transform: scaleX(0);
-    background-color: black;
-    transition: transform 0.1s linear;
-}
-
-.info-container a span:hover::after {
-    transform: scaleX(0.8);
+.info-container a span {
+    color: white;
 }
 
 #readpaper {
@@ -85,13 +75,15 @@
 
 .pub-info h1 {
     font-size: 30px;
-    font-family: TestSohne;
+    font-family: Montserrat;
     margin-bottom: 15px;
 }
 
 .pub-info p {
-    font-family: TestSignifier-ExtraLight;
+    font-family: NotoSerifJP-Regular;
     font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 0;
     width: calc(var(--page-width) - 2*var(--padding-left-from-page));
     padding-bottom: 160px;
 }
@@ -110,14 +102,24 @@
 }
 
 #author {
-    font-family: TestSohne;
+    font-family: Montserrat;
+    font-weight: bold;
 }
 
 #authorname {
-    font-family: TestSohne-Light;
+    font-family: Montserrat;
     position: absolute;
     left: 0px;
     margin-left: var(--padding-left-from-page);
+}
+
+.info-container button {
+    background-color: #191919;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 @media (max-height: 1000px) {
