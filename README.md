@@ -1,16 +1,16 @@
-# Paper name
+# Nom de l'article
 
 ![Static Badge](https://img.shields.io/badge/vertueux.github.io-View_online-brightgreen?color=blue&link=https%3A%2F%2Fvertueux.github.io)
 
-The purpose of this repository is to...
+L'objectif de ce répertoire est de...
 
-* [Discussion of the project on Discord](https://discord.com/invite/4m2SgCmWMr)
-* [Online page of the paper](https://vertueux.github.io/paper)
+* [Discussion du projet sur Discord](https://discord.com/invite/4m2SgCmWMr)
+* [Page en ligne de l'article](https://vertueux.github.io/paper)
 
-## Build the LaTeX file(s)
+## Construire le(s) fichier(s) LaTeX
 
-To build the project, you need a working LaTeX installation.
+Pour construire le projet, vous avez besoin d'une installation LaTeX fonctionnelle.
 
-## Source reference
+## Référence de la source
 
-This is where the references are given.
+C'est ici que les références sont données.
